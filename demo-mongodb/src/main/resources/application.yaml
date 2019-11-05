@@ -1,0 +1,11 @@
+server:
+  port: 8001
+spring:
+  data:
+    mongodb:
+      data:
+        uri: mongodb://localhost:27017/data
+      log:
+        uri: mongodb://localhost:27017/log
+  application:
+    name: demo-mongodb
