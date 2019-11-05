@@ -36,7 +36,7 @@ public class DemoMongoDBApplicationTests {
         DbUser dbUser = new DbUser("12345", "Hello", 19);
         userRepository.save(dbUser);
 
-        assertTrue(userRepository.count() == 1);
+        assertTrue(userRepository.count() >= 1);
     }
 
     @Test

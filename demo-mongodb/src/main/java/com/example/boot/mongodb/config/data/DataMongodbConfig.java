@@ -1,6 +1,5 @@
 package com.example.boot.mongodb.config.data;
 
-import com.mongodb.MongoClientURI;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.mongo.MongoProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -8,7 +7,6 @@ import org.springframework.context.annotation.*;
 import org.springframework.data.mongodb.MongoDbFactory;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.SimpleMongoClientDbFactory;
-import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 /**
